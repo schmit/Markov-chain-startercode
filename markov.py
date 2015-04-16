@@ -21,6 +21,9 @@ def process_line(line):
     We add the BEGIN and END keywords so that we can initialize the
     sentence and know when the line ends.
     '''
+
+    # YOUR CODE HERE #
+
     pass
 
 def process_textfile(filename):
@@ -41,8 +44,8 @@ def process_textfile(filename):
     '''
     d = {}
 
-    # placeholder for file IO to be added later
-    # from http://www.bygosh.com/Features/082000/rhymes.htm
+    # Placeholder until we add File I/O in part two
+    # Overwrite the following lines with your code:
     f = '''In winter I get up at night
 And dress by yellow candle-light.
 In summer quite the other way,
@@ -58,6 +61,9 @@ When all the sky is clear and blue,
 And I should like so much to play,
 To have to go to bed by day?
 '''.split('\n')
+    # text from http://www.bygosh.com/Features/082000/rhymes.htm
+
+    # YOUR CODE HERE #
 
     return d
 
@@ -74,6 +80,9 @@ def generate_line(d):
 
     Hint: use random.choice to select a random element from a list
     '''
+
+    # YOUR CODE HERE #
+
     pass
 
 if __name__ == '__main__':
